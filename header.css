@@ -1,0 +1,49 @@
+header {
+     background: linear-gradient(#5e0b15, #6f0404, #5e0b15);
+    padding: 20px 0;
+}
+
+.caixa {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Espaça a logo e o menu */
+    padding: 10px; /* Opcional, para afastar das bordas */
+}
+
+/* Ajuste para mover a logo à esquerda */
+.caixa img {
+    display: block;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Espaço entre os itens do menu */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 30px; /* ✅ MOVIDO PARA A ESQUERDA */
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #c71919;
+    text-decoration: underline;
+}
